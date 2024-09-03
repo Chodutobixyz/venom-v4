@@ -210,7 +210,7 @@ async def broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
                 print(f"Error sending message to {user}: {e}")
         response = "Message sent to all users."
     else:
-        response = "ONLY OWNER CAN USE."
+        response = "veryone can use but sorry."
     
     await update.message.reply_text(response)
 
